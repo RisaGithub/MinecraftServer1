@@ -11,4 +11,4 @@ COPY . /minecraft
 EXPOSE 25565
 
 # Start the Minecraft server with appropriate memory settings
-CMD ["java", "-Xmx2G", "-Xms1G", "-jar", "your_minecraft_server.jar", "nogui"]
+CMD ["java", "-Xmx2G", "-Xms1G", "-jar", "server.jar", "nogui"]
